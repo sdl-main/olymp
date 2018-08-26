@@ -45,7 +45,7 @@ void add(int x, int v) {
     }
 }
 
-// set a[x] to v in O(logN)
+// set a[x] to v in O(2logN)
 void modify(int x, int v) {
     int delta = v - get(x);
     add(x, delta);
